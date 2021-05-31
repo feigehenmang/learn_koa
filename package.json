@@ -1,0 +1,33 @@
+{
+  "name": "learn_koa",
+  "version": "1.0.0",
+  "description": "learn_koa",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feigehenmang/learn_koa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feigehenmang/learn_koa/issues"
+  },
+  "homepage": "https://github.com/feigehenmang/learn_koa#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "axios": "^0.21.1",
+    "formidable": "^1.2.2",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compose": "^4.1.0",
+    "koa-router": "^10.0.0"
+  },
+  "config": {
+    "port": 3001,
+    "host": "0.0.0.0"
+  }
+}
